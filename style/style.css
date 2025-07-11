@@ -135,6 +135,7 @@ nav button {
   font-family: "Raleway";
   font-weight: bold;
   font-size: 38px;
+  color: #252432;
   text-align: center;
 }
 
@@ -146,16 +147,77 @@ nav button {
   gap: 158px;
 }
 
-.sec3div3 h1 {
+.sec3h1 {
   font-family: "Inter", sans-serif;
   font-size: 80px;
   font-weight: bold;
   color: rgb(78, 71, 255);
 }
 
-.sec3div3 p {
+.sec3p {
   text-align: center;
   font-family: "Inter", sans-serif;
   font-size: 20px;
   color: #675858;
+}
+/* section4 */
+.section4 {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.sec4div1 {
+  max-width: 1140px;
+  max-height: 306px;
+  margin: 100px auto;
+
+  padding: 50px 0;
+}
+.sec4title {
+  font-family: "Raleway";
+  font-weight: bold;
+  font-size: 42px;
+  color: #252432;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.sec4div2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+.sec4div3 {
+  background: rgb(250, 246, 246);
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 14px;
+  padding: 24px;
+  max-height: 243px;
+  width: 400px;
+}
+
+.sec4h1 {
+  font-size: 30px;
+  font-weight: bold;
+  font-family: "Raleway";
+  margin-top: 24px;
+  margin-bottom: 10px;
+}
+.sec4p {
+  font-size: 14px;
+  font-family: "Inter", sans-serif;
+  margin-bottom: 24px;
+}
+.reviewrh3 {
+  font-size: 16;
+  font-family: "Inter", sans-serif;
+  font-weight: normal;
+  color: #9c9ca3;
+}
+.reviewrh4 {
+  font-size: 16;
+  font-family: "Inter", sans-serif;
+  color: #cbcbcb;
+  font-weight: normal;
 }
