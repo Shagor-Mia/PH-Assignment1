@@ -4,6 +4,7 @@
 }
 body {
   margin: 0 auto;
+  background: whitesmoke;
 }
 
 /* shared */
@@ -38,7 +39,7 @@ nav {
 }
 
 nav h1 {
-  font-family: "Inter", sans-serif;
+  font-family: "Inter";
   font-weight: bold;
   font-size: 34px;
   color: rgb(78, 71, 255);
@@ -338,4 +339,48 @@ nav button {
 
 .formdiv button:hover {
   color: red;
+}
+
+/* section footer */
+.footer {
+  max-height: 428px;
+  max-width: 1440px;
+  margin: 0 auto;
+  background: white;
+  text-align: center;
+  padding: 100px 370px;
+}
+
+.footertitle {
+  font-family: "Inter";
+  font-weight: black;
+  font-size: 100px;
+  color: rgb(78, 71, 255);
+}
+
+.footerdesc {
+  color: #8987a1;
+  font-size: 16px;
+  font-weight: normal;
+  font-family: "Inter";
+}
+
+.footerdiv {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.footerdiv li {
+  font-family: "Inter";
+  list-style: none;
+  color: #8987a1;
+  font-size: 16px;
+  font-weight: normal;
+}
+.footerdiv li a {
+  color: #8987a1;
+}
+.footerdiv li a:hover {
+  color: #4e47ff;
 }
