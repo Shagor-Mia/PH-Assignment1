@@ -2,3 +2,76 @@
   margin: 0;
   padding: 0;
 }
+body {
+  margin: 0 auto;
+}
+
+/* shared */
+a {
+  text-decoration: none;
+}
+
+.btn {
+  color: white;
+}
+
+.btn:hover {
+  color: red;
+}
+
+/* section1 */
+.section1 {
+  background-image: url("../Assets/Hero-bg.png");
+  max-height: 698px;
+  max-width: 1440px;
+  margin: 0;
+  padding: 0;
+}
+.sec1div1 {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 10px;
+}
+
+nav h1 {
+  font-family: "Inter", sans-serif;
+  font-weight: bold;
+  font-size: 34px;
+  color: rgb(78, 71, 255);
+}
+nav button {
+  height: 48px;
+  width: 132px;
+  background-color: rgb(78, 71, 255);
+  font-weight: 700;
+  border: 0;
+  border-radius: 10px;
+}
+
+.div1 {
+  text-align: center;
+  margin: 0px 20px;
+  padding: 152px 150px;
+}
+.div1 p {
+  font-family: "Raleway";
+  font-weight: bold;
+  font-size: 65px;
+  color: #252432;
+  margin-bottom: 16px;
+}
+
+.div1 button {
+  height: 48px;
+  width: 172px;
+  background-color: rgb(78, 71, 255);
+  font-weight: 700;
+  border: 0;
+  border-radius: 10px;
+  margin-top: 27px;
+}
